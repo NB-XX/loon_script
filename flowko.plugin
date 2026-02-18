@@ -1,0 +1,12 @@
+#!name=flowko
+#!desc=flowko解锁
+#!icon=
+#!homepage=https://yfamilys.com
+#!author=NBXX
+[Script]
+# Flowko 解锁
+http-response ^https:\/\/flowkoapp\.com\/api\/subscription\/verify script-path=https://raw.githubusercontent.com/NB-XX/loon_script/refs/heads/main/flowko.js, requires-body=true, tag=Flowko解锁
+
+
+[MITM]
+hostname = flowkoapp.com
